@@ -1,0 +1,29 @@
+.toDo-main{
+    border: 1px solid transparent;
+    background-color: aquamarine;
+    height: 300px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container-todo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+ul{
+    padding-left: unset;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.remover{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    
+}
